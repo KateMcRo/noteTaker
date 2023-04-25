@@ -18,6 +18,8 @@ On the left side will be any saved notes. On the right side is a place holder fo
 
 The user may click on a saved note to view the full text. They can click the delete icon to remove the note from the list.
 
+[Deployed Note Taker](https://knote-taker.herokuapp.com/)
+
 
 ## License
 
