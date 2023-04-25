@@ -1,3 +1,26 @@
+# Note Taker
+
+## Description
+
+This is a note taking app that allows users to write and save notes to help keep track of tasks that need completing. Notes can be saved, viewed, and deleted.
+
+Key takeaways from buiding this project:
+- file organization is crucial
+- routes follow a logical path
+
+## Usage
+
+Click the "Get Started" button on the landing page.
+
+On the left side will be any saved notes. On the right side is a place holder for "Note Title" and "Note Text". When the user clicks into this area to write a note, a save icon will appear. Once they have input their note, they can click the save icon to update the tracked note list. 
+
+![Screenshot of Note Taker App](public/assets/noteTakerSS.png)
+
+The user may click on a saved note to view the full text. They can click the delete icon to remove the note from the list.
+
+
+## License
+
 MIT License
 
 Copyright (c) 2023 Kate Rogers

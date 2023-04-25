@@ -20,4 +20,13 @@ router.post("/notes", async (req, res) => {
     res.send(newNote)
 }) 
 
+router.delete("/notes/:id", async (req, res) => {
+    const notes = await getDBNotes()
+    const id = req.params.id;
+    const result = notes.filter((note) => note.id !== id)
+    fs.writeFileSync("./db/db.json", JSON.stringify(result))
+    res.send(result)
+
+});
+
 module.exports = router
